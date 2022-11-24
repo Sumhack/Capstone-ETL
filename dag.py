@@ -29,6 +29,6 @@ with DAG(
     )
     sql_to_bq = BashOperator(
                 task_id = 'sqltobq',
-                bash_command="python /home/airflow/gcs/dags/tasks/mysql_to_bq_etl.py")
+                bash_command="python /home/airflow/gcs/dags/tasks/mysql_to_bq_etlDAG.py")
     
     start >> sql_to_bq >> end
