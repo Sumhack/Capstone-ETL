@@ -1,4 +1,4 @@
-##Overview
+**Overview
 
 U F H
 Its an ecommerce company dealing in organic groceries.
@@ -9,7 +9,7 @@ They soon plan to expand their capabilities to serve between 10000 to 20000 orde
 
 
 
-##TASKS
+**TASKS
 
 Create tables as defined in  OLTP Schema in Cloud SQL PostgreSQL. Make sure you have repeatble scripts to create tables again and again
 Populate the tables in Step 1 using Python Faker library. Make sure Data follows primary and foreign key constraints
@@ -22,7 +22,7 @@ Run your incremental ETL to load Data about additional 5000 orders
 Write BigQuery SQL for each of the analytics requirements (10) to generate reports
 
 
-##Analytics Requirements
+**Analytics Requirements
 
 Average number of items per order - daily, monthly, weekly, state, city, pincode
 Average amount of sales per order -  daily, monthly, weekly, state, city, pincode
