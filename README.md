@@ -34,15 +34,24 @@ Write BigQuery SQL for each of the analytics requirements (10) to generate repor
 
 **Analytics** **Requirements**
 
-Average number of items per order - daily, monthly, weekly, state, city, pincode
+Average number of items per order - daily, monthly, weekly, state, city, pincode.
+
 Average amount of sales per order -  daily, monthly, weekly, state, city, pincode
+
 total number of units sold per day of a product SKU and its monthly trend
+
 Total Order Amount on daily basis, also to be able to split by product and geography
+
 Distribution of orders according to area ( state, city, pincode etc)
+
 Average order amount per customer on daily basis
+
 New Customers on daily basis
+
 Total count of customers everyday
-Average time to delivery order. Min and Max time. To be able to slice and dice on hour, weekday, weekend, daily, monthly, geography, 
+
+Average time to delivery order. Min and Max time. To be able to slice and dice on hour, weekday, weekend, daily, monthly, geography
+
 Total orders : to be able to slice and dice on hour, weekday, weekend, daily, monthly, geography
 
 
