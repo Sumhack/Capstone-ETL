@@ -11,7 +11,8 @@ They soon plan to expand their capabilities to serve between 10000 to 20000 orde
 
 **TASKS**
 
-Create tables as defined in  OLTP Schema in Cloud SQL PostgreSQL. Make sure you have repeatble scripts to create tables again and again
+Create tables as defined in  OLTP Schema in Cloud SQL PostgreSQL.
+Make sure you have repeatble scripts to create tables again and again
 Populate the tables in Step 1 using Python Faker library. Make sure Data follows primary and foreign key constraints
 At minimum Need 1000 unique customers, 120 unique dates, 20000 orders, 20 cities, 50 Products each with minimum 2 SKUs
 Create tables defined in STAR Schema in BigQuery. Make sure you have repeatable scripts to create tables again and again
