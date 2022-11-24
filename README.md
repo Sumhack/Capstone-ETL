@@ -1,4 +1,4 @@
-#Overview
+##Overview
 
 U F H
 Its an ecommerce company dealing in organic groceries.
@@ -8,9 +8,8 @@ They soon plan to expand their capabilities to serve between 10000 to 20000 orde
 
 
 
-![image](https://user-images.githubusercontent.com/72490491/203690669-2255b940-c01a-4fba-8079-2f502c8dd469.png)
 
-#TASKS
+##TASKS
 
 Create tables as defined in  OLTP Schema in Cloud SQL PostgreSQL. Make sure you have repeatble scripts to create tables again and again
 Populate the tables in Step 1 using Python Faker library. Make sure Data follows primary and foreign key constraints
@@ -21,9 +20,9 @@ Make sure you take care of one time load and incremental load
 Use your code in step to generate new 5000 orders and populate OLTP schema
 Run your incremental ETL to load Data about additional 5000 orders
 Write BigQuery SQL for each of the analytics requirements (10) to generate reports
-![image](https://user-images.githubusercontent.com/72490491/203690845-567162c6-d1c0-4808-89a2-ba58fdb27acd.png)
 
-#Analytics Requirements
+
+##Analytics Requirements
 
 Average number of items per order - daily, monthly, weekly, state, city, pincode
 Average amount of sales per order -  daily, monthly, weekly, state, city, pincode
@@ -35,5 +34,5 @@ New Customers on daily basis
 Total count of customers everyday
 Average time to delivery order. Min and Max time. To be able to slice and dice on hour, weekday, weekend, daily, monthly, geography, 
 Total orders : to be able to slice and dice on hour, weekday, weekend, daily, monthly, geography
-![image](https://user-images.githubusercontent.com/72490491/203690925-ae3623d5-e9dc-48cb-96f5-f5f591d1d8f4.png)
+
 
